@@ -34,8 +34,8 @@ public class HelloWorld {
 //		Rectangle r = new Rectangle(2,2,'#',10,2);
 //		System.out.println(r);
 		
-//		Rectangle2 r2 = new Rectangle2(2,2,'#',false,10,4);
-//		System.out.println(r2);
+		Rectangle2 r2 = new Rectangle2(2,2,'#',false,10,4);
+		System.out.println(r2);
 		
 //		Triangle t = new Triangle(7);
 //		System.out.println(t);
@@ -43,8 +43,8 @@ public class HelloWorld {
 //		Triangle t = new Triangle(2,2,'#',5);
 //		System.out.println(t);
 		
-		Triangle2 t2 = new Triangle2(2,2,'#', false,6);
-		System.out.println(t2);
+//		Triangle2 t2 = new Triangle2(2,2,'#', false,6);
+//		System.out.println(t2);
 	}
 	
 	public static void Uloha1(String s){
