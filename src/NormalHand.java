@@ -3,8 +3,8 @@ public class NormalHand extends Hand {
 	private boolean healthy;
 	private int health;
 	
-	public NormalHand(String color, int numberOfFingers, boolean rightHand, boolean healthy, int health) {
-		super(color, numberOfFingers, rightHand);
+	public NormalHand(String color, int numberOfFingers, Side side, boolean healthy, int health) {
+		super(color, numberOfFingers, side);
 		this.healthy = healthy;
 		this.health = health;
 	}

@@ -4,8 +4,8 @@ public class RoboticHand extends Hand{
 	private boolean state;
 	private int damage;
 	
-	public RoboticHand(String color, int numberOfFingers, boolean rightHand, int length, boolean state) {
-		super(color, numberOfFingers, rightHand);
+	public RoboticHand(String color, int numberOfFingers, Side side, int length, boolean state) {
+		super(color, numberOfFingers, side);
 		this.length = length;
 		this.state = state;
 	}

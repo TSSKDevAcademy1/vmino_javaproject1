@@ -3,8 +3,8 @@ public class WoodenHand extends Hand{
 	private boolean state;
 	private int damage;
 	
-	public WoodenHand(String color, int numberOfFingers, boolean rightHand, boolean state, int damage) {
-		super(color, numberOfFingers, rightHand);
+	public WoodenHand(String color, int numberOfFingers, Side side, boolean state, int damage) {
+		super(color, numberOfFingers, side);
 		this.state = state;
 		this.damage = damage;
 	}

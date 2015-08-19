@@ -68,4 +68,9 @@ public abstract class Shape {
 		}
 		return s;
 	}
+	
+	public void move(int x, int y){
+		this.x = x;
+		this.y = y;
+	}
 }

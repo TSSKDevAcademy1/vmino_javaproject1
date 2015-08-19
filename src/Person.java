@@ -1,7 +1,8 @@
-
 public class Person {
 	private String name;
 	private int age;
+	private Hand rightHand;
+	private Hand leftHand;
 	
 	public Person(String name, int age) {
 		this.name = name;
@@ -37,5 +38,29 @@ public class Person {
 	private boolean isValidAge(int age) {
 		return (age > 0 && age < 120);
 	}
+	
+	private void addRightHand(Hand hand){
+		if(this.rightHand == null){
+			if (hand.side == Hand.Side.RIGHT){
+				this.rightHand = hand;
+			}
+		}
+	}
+	
+	private void removeRightHand(){
+				this.rightHand = null;
+	}
+
+	private void addLeftHand(Hand hand){
+		if(this.leftHand == null){
+			if (hand.side == Hand.Side.LEFT){
+				this.leftHand = hand;
+			}
+		}
+	}
+	
+	private void removeLeftHand(){
+		this.leftHand = null;
+}
 
 }
